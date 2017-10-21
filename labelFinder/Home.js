@@ -18,7 +18,7 @@ class Home extends React.Component {
       <View style={styles.container}>
         <Text style={styles.label}>Allergens Are Bad! So We Made An App</Text>
         <TouchableOpacity onPress={this.navigateToScanner} style={styles.button}>
-          <Text style={styles.buttonText}>Go Scan Something!</Text>
+          <Text style={styles.buttonText}>Go Scan A Thing!</Text>
         </TouchableOpacity>
       </View>
     )
